@@ -1,13 +1,33 @@
 body{
     font-family: Anime;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url(../Util/World\ Map.svg);
+    background-position: top;
+}
+
+#logo{
+    background-color: white;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5%;
+    height: 10rem;
+    width:10rem;
 }
 
 #linked{
     border: chartreuse 2px solid;
+    background-color: black;
     border-radius: 2rem;
-    width: 70%;
+    width: 50%;
     height: 10rem;
     margin: 0 auto;
-    margin-top: 30%;
+    margin-top: 15%;
     overflow: hidden;
+    display: flex;
+}
+
+.link{
+    margin-left: 4rem;
 }
