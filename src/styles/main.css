@@ -293,28 +293,91 @@ body {
 }
 
 #logo {
-  background-color: white;
   margin: 0 auto;
   display: block;
   margin-top: 5%;
-  height: 10rem;
-  width: 10rem;
+  height: 25rem;
+  width: 25rem;
+}
+
+#portfolio {
+  margin-left: 47%;
+  border: chartreuse 2px solid;
+  width: 7.5rem;
+  border-radius: 0.5rem;
 }
 
 #linked {
+  display: flex;
+  flex-wrap: wrap;
   border: chartreuse 2px solid;
   background-color: black;
   border-radius: 2rem;
   width: 50%;
-  height: 10rem;
+  height: 15rem;
   margin: 0 auto;
-  margin-top: 15%;
+  margin-top: 1%;
   overflow: hidden;
-  display: flex;
 }
 
 .link {
-  margin-left: 4rem;
+  margin-top: 0.5rem;
+  margin-left: 8rem;
+  height: 5rem;
+  width: 6rem;
+}
+
+#link1, #link2, #link3, #link4, #link5, #link6, #link7, #link8 {
+  height: 3rem;
+  width: 3rem;
+  background-size: cover;
+}
+
+#link1 {
+  background-image: url(../Util/classroom.png);
+}
+
+#link2 {
+  background-image: url(../Util/Chat.png);
+}
+
+#link3 {
+  background-image: url(../Util/mail.png);
+}
+
+#link4 {
+  background-image: url(../Util/drive.png);
+}
+
+#link5 {
+  background-image: url(../Util/github.png);
+}
+
+#link6 {
+  background-image: url(../Util/React.png);
+}
+
+#link7 {
+  background-image: url(../Util/npmjs.jpg);
+}
+
+#link8 {
+  background-image: url(../Util/bgjar.png);
+}
+
+@media only screen and (max-width: 1700px) {
+  #link1, #link2, #link3, #link4, #link5, #link6, #link7, #link8 {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+@media only screen and (max-width: 1370px) {
+  #linked {
+    overflow: auto scroll;
+  }
+}
+#audio {
+  margin-top: 1rem;
 }
 
 .container {
